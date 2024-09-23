@@ -19,6 +19,7 @@ body {
   .item1 {
     grid-column: 1 / span 6;
     grid-row: 1;
+    padding: 5px;
   }
    .item2 {
     grid-row: 2 / 2;
