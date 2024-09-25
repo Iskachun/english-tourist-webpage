@@ -7,7 +7,12 @@ body {
 
 .item1 {
     background-image: url("../media/2.jpg");
-    background-size: cover;
+    min-height: 80%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
     color: white;
 }
 
