@@ -88,7 +88,7 @@ a {
 
 
 
-  .i1, .i2, .i3, .i4 {
+  .i1, .i2, .i3, .i4, .i5, .i6 {
     width: 100%;
     height: 100%;
   }
@@ -97,3 +97,36 @@ a {
     width: 100%;
     height: 100%;
   }
+
+  .img2 {
+    width: 49%;
+  }
+
+  .top2 { grid-area: h2;}
+  .i12 { grid-area: i12; }
+.p12 { grid-area: p12; }
+.i34 { grid-area: p34; }
+.p34 { grid-area: p34; }
+  .i56 { grid-area: i56; }
+  .p56 { grid-area: p56; }
+.grid-container3 {
+    display: grid;
+    gap: 0px;
+    padding: 0px;
+    margin: 0px;
+    grid-template-areas: 
+        "h2 h2"
+        "i12 i12"
+        "p12 p12"
+        "i34 i34"
+        "p34 p34"
+        "i56 i56"
+        "p56 p56"
+    ;
+  }
+
+  .i12, .i34, .i56, .p12, .p34, .p56 {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
