@@ -38,13 +38,13 @@ body {
   
 
    .item21, .item22, .item23, .item24, .item25 {
-    background-color: rgba(208, 228, 203, 0.83);
+    background-color: rgba(164, 193, 157, 0.815);
     border-radius: 15px;
     position: relative;
   }
 
 .item21:hover, .item22:hover, .item23:hover, .item24:hover, .item25:hover, .item21:active {
-    background-color: rgba(164, 193, 157, 0.815);
+    background-color: rgba(208, 228, 203, 0.83);
 }
 
 a {
