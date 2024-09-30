@@ -53,6 +53,11 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
 .link {
   position: absolute; 
   width:100%;
