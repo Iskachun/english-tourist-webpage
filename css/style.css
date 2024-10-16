@@ -203,3 +203,37 @@ a:hover {
     display: table;
     text-align: left;
  }
+
+
+ .video { grid-area: v;}
+ .infobox { grid-area: inf; }
+.funfact1 { grid-area: ff1; }
+.funfact2 { grid-area: ff2; }
+.funfact3 { grid-area: ff3; }
+.picture1 { grid-area: pp1; }
+.picture2 { grid-area: pp2; }
+.picture3 { grid-area: pp3; }
+
+.grid-container4 {
+   display: grid;
+   gap: 0px;
+   padding: 0px;
+   margin: 0px;
+   grid-template-areas: 
+       "v v v v inf"
+       "v v v v inf"
+       "v v v v inf"
+       "ff1 pp1 pp1 pp1 ff2"
+       "pp2 pp2 ff3 pp3 pp3"
+   ;
+ }
+
+ .infobox, .funfact1, .funfact2, .funfact3 {
+    border: 3px solid rgba(164, 193, 157, 0.815);
+    border-radius: 15px;
+  }
+  .item21, .item22, .item23, .item24, .item25 {
+    background-color: rgba(164, 193, 157, 0.815);
+    border-radius: 15px;
+    position: relative;
+  }
