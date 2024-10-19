@@ -221,8 +221,6 @@ a:hover {
    margin: 0px;
    grid-template-areas: 
        "v v v v inf"
-       "v v v v inf"
-       "v v v v inf"
        "ff1 pp1 pp1 pp1 ff2"
        "pp2 pp2 ff3 pp3 pp3"
    ;
@@ -236,4 +234,9 @@ a:hover {
     background-color: rgba(164, 193, 157, 0.815);
     border-radius: 15px;
     position: relative;
+  }
+  
+  .video {
+    background-color: rgba(164, 193, 157, 0.815);
+
   }
